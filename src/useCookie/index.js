@@ -3,7 +3,7 @@ import Cookies from 'cookies-js';
 
 // TODO: use deepEqual for objects
 // this check is currently only really useful for boolean, number, and string
-const equal = (a, b) => value === defaultValue;
+const equal = (a, b) => a === b;
 
 const ONE_YEAR_IN_SECONDS = 60 * 60 * 24 * 365;
 Cookies.defaults = { expires: ONE_YEAR_IN_SECONDS };

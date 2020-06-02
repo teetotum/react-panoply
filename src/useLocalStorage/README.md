@@ -1,4 +1,4 @@
-# useLocalStorage (caution: pre-release - 0.0.1-alpha - signature might change in future releases)
+# useLocalStorage (caution: pre-release - 0.0.2-alpha - signature might change in future releases)
 A react hook to conviently work with a value stored in the [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 Any JSON serializable data type is supported.
 The `defaultValue` is used when no item with the `key` is found in local storage.
@@ -38,4 +38,4 @@ cont [showToolbar, setShowToolbar] = useLocalStorage('showToolbar', true, { clea
 - debug infos: the hook provides [debug information](https://reactjs.org/docs/hooks-reference.html#usedebugvalue) for React DevTools
 
 # known shortcomings
-- the 0.0.1-alpha implementation does not yet use deepEqual to evaluate whether the value is equal to the defaultValue when `clearIfDefault` is used. So when storing an object in local storage the serialized value is never cleared.
+- the 0.0.2-alpha implementation does not yet use deepEqual to evaluate whether the value is equal to the defaultValue when `clearIfDefault` is used. So when storing an object in local storage the serialized value is never cleared.

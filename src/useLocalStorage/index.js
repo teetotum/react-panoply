@@ -2,7 +2,7 @@ import { useState, useEffect, useDebugValue } from 'react';
 
 // TODO: use deepEqual for objects
 // this check is currently only really useful for boolean, number, and string
-const equal = (a, b) => value === defaultValue;
+const equal = (a, b) => a === b;
 
 const defaultOptions = {
     clearIfDefault: true,
