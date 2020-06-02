@@ -1,0 +1,35 @@
+{
+  "name": "react-panoply",
+  "version": "0.0.1-alpha",
+  "description": "A curated collection of highly reusable react hooks.",
+  "keywords": [
+    "react",
+    "hook",
+    "reuse"
+  ],
+  "homepage": "https://github.com/teetotum/react-panoply",
+  "bugs": "https://github.com/teetotum/react-panoply/issues",
+  "license": "MIT",
+  "main": "dist/react-panoply.js",
+  "module": "src/index.js",
+  "author": "Martin Winkler",
+  "repository": "github:teetotum/react-panoply",
+  "scripts": {
+    "dev": "webpack",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "cookies-js": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "core-js": "3.1.4",
+    "babel-loader": "8.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8"
+  }
+}
