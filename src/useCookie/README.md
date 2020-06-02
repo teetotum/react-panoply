@@ -38,7 +38,7 @@ cont [showToolbar, setShowToolbar] = useCookie('showToolbar', true, { clearIfDef
 - functional updates: If the new value is computed using the previous value, you can pass a function to the updater. The function will receive the previous value, and return an updated value.
 - debug infos: the hook provides [debug information](https://reactjs.org/docs/hooks-reference.html#usedebugvalue) for React DevTools
 
-# known shortcommings
+# known shortcomings
 - the 0.0.1-alpha implementation does not yet use deepEqual to evaluate whether the value is equal to the defaultValue when `clearIfDefault` is used. So when storing an object in a cookie the serialized value is never cleared.
 
 # thoughts
