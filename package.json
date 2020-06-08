@@ -1,6 +1,6 @@
 {
   "name": "react-panoply",
-  "version": "0.0.2-alpha",
+  "version": "0.0.3-alpha",
   "description": "A curated collection of highly reusable react hooks.",
   "keywords": [
     "react",
@@ -22,11 +22,11 @@
     "cookies-js": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.9.6",
-    "@babel/preset-env": "7.9.6",
+    "@babel/core": "7.10.2",
+    "@babel/preset-env": "7.10.2",
     "webpack": "4.43.0",
     "webpack-cli": "3.3.11",
-    "core-js": "3.1.4",
+    "core-js": "3.6.5",
     "babel-loader": "8.1.0"
   },
   "peerDependencies": {
