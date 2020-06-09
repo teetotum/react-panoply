@@ -38,4 +38,4 @@ cont [showToolbar, setShowToolbar] = useLocalStorage('showToolbar', true, { clea
 - debug infos: the hook provides [debug information](https://reactjs.org/docs/hooks-reference.html#usedebugvalue) for React DevTools
 
 # known shortcomings
-- the 0.0.3-alpha implementation does not yet use deepEqual to evaluate whether the value is equal to the defaultValue when `clearIfDefault` is used. So when storing an object in local storage the serialized value is never cleared.
+- the 0.0.4-alpha implementation does not yet use deepEqual to evaluate whether the value is equal to the defaultValue when `clearIfDefault` is used. So when storing an object in local storage the serialized value is never cleared.
