@@ -1,4 +1,4 @@
-# react-panoply (caution: pre-release - 0.0.3-alpha)
+# react-panoply (caution: pre-release - 0.0.5-alpha)
 
 A curated collection of highly reusable react hooks. Solves all kinds of programming headaches that sooner or later arise naturally in many react projects and that can be cured with just the right combination of well-crafted hooks.
 

@@ -39,7 +39,7 @@ cont [showToolbar, setShowToolbar] = useCookie('showToolbar', true, { clearIfDef
 - debug infos: the hook provides [debug information](https://reactjs.org/docs/hooks-reference.html#usedebugvalue) for React DevTools
 
 # known shortcomings
-- the 0.0.4-alpha implementation does not yet use deepEqual to evaluate whether the value is equal to the defaultValue when `clearIfDefault` is used. So when storing an object in a cookie the serialized value is never cleared.
+- the 0.0.5-alpha implementation does not yet use deepEqual to evaluate whether the value is equal to the defaultValue when `clearIfDefault` is used. So when storing an object in a cookie the serialized value is never cleared.
 
 # thoughts
 This hook is useful for storing some UI state that should survive from one session to the next. But all modern browsers support [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) now and the use of cookies for such things is considered a practice from the past. I therefore recommend the [useLocalStorage](../useLocalStorage/) hook over the useCookie hook.
