@@ -1,5 +1,4 @@
-import { useCookie as cookie } from './useCookie';
-import { useLocalStorage as localStorage } from './useLocalStorage';
-
-export const useCookie = cookie;
-export const useLocalStorage = localStorage;
+export * from './useCookie';
+export * from './useEvent';
+export * from './useIntersectionObserver';
+export * from './useLocalStorage';
